@@ -1,20 +1,20 @@
-# Projet Ingénierie Logicielle - Titanic
+# Titanic Analysis Project
 
-Ce projet est une refactorisation industrielle du défi Kaggle Titanic.
-Il transforme un notebook exploratoire en une application Python modulaire, testée et automatisée.
+Technical implementation of a Random Forest classifier for the Titanic dataset.
 
-## 👥 Équipe
-- Membre 1 : Rayan RAMI
-- Membre 2 : [Nom du binôme]
+## Project Structure
+- src/: Source code (data processing, model training, main execution).
+- tests/: Unit tests.
+- data/: Input datasets.
 
-## 🏗 Structure du Projet
-- `src/` : Code source (nettoyage, entraînement, main).
-- `tests/` : Tests unitaires automatisés.
-- `data/` : Données d'entrée (non incluses dans le dépôt par sécurité).
-- `.github/workflows/` : Pipeline CI/CD pour l'automatisation.
+## Setup
+pip install -r requirements.txt
 
-## 🚀 Installation et Utilisation
+## Execution
+python src/main.py
 
-1. **Installation des dépendances**
-   ```bash
-   pip install -r requirements.txt
+## Testing
+python tests/test_project.py
+
+## Author
+Rayan RAMI
